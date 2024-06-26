@@ -27,8 +27,6 @@ return {
         require("mason-lspconfig").setup({
             ensure_installed = {
                 "lua_ls",
-                "ansible-language-server",
-                "yaml-language-server",
                 "pyright",
 
             },

@@ -24,21 +24,5 @@ vim.keymap.set('t', '<C-n><C-n>', '<C-\\><C-n><C-w><C-w>')
 
 -- + LSP
 vim.keymap.set('n', '<C-d>', 'gd') -- go to definition
-vim.keymap.set('n', '<C-l>', ':noh') -- clear search highlight
+vim.keymap.set('n', '<C-l>', ':noh<CR>') -- clear search highlight
 
--- ================== --
--- + Keyboard remap + --
--- ================== --
-vim.keymap.set('i', '<M-d>', '\\')
-vim.keymap.set('i', '<M-h>', '(')
-vim.keymap.set('i', '<M-t>', '{')
-vim.keymap.set('i', '<M-n>', '}')
-vim.keymap.set('i', '<M-s>', ')')
-
-vim.keymap.set('i', '<M-f>', '`')
-vim.keymap.set('i', '<M-g>', '-')
-vim.keymap.set('i', '<M-c>', '=')
-vim.keymap.set('i', '<M-r>', '+')
-
-vim.keymap.set('i', '<M-w>', '[')
-vim.keymap.set('i', '<M-v>', ']')
